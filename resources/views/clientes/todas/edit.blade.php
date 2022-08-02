@@ -24,7 +24,7 @@
     </div> 
     <div class="form-group cold-md-6">
         <label>Imagen</label><br>
-            {{Form::file('image')}}
+        <input accept="image/png,image/jpeg" type="file" name="image" id="image" require>
             @if($cliente->image != "")
                 <img src="{{asset('/img/clientes/'.$cliente->image)}}" alt="{{$cliente->image}}" height="150px" width="50px" class="card-img-top">
             @endif

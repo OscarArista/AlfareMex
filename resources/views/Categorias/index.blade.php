@@ -16,7 +16,7 @@
     </div><!-- /.container-fluid -->
   </div>
 <div class="container mt-5">
-    <h2>LISTA DE CATEGORÍAS DE LOS CURSOS
+    <h2>LISTA DE CATEGORÍAS DE LOS PRODUCTOS
     <a href="{{ route('Categorias.create')}}" class="btn btn-outline-info">
             <i class="fa fa-plus-circle"> Categorías</i>
         </a>
@@ -57,12 +57,12 @@
 </div><br><br>
 <div class="alert alert-danger" role="alert">
     <h4 class="alert-heading">Hola {{ Auth::user()->name }}</h4>
-    <h4>Si vas a Eliminar una <strong>"categoría "</strong>tener en cuenta estas recomendaciones:<br>
+    <!-- h4>Si vas a Eliminar una <strong>"categoría "</strong>tener en cuenta estas recomendaciones:<br>
         1-Al momento de eliminar una categoría se va a realizar la eliminación de "</strong>.todos los productos que poseen esa categoría"</strong>.<br>
         2-Es Mejor actualizar y cambiar los datos que eliminar una categoría. <br>
         3-No Elimine una categoría a no se por motivos mayores.
-    </h4>
+    </h4 >
     <hr>
-    <p class="mb-0">Que tengas un hermoso dia Atte: JLDIAZ</p>
+    <p class="mb-0">Que tengas un hermoso dia Atte: JLDIAZ</p -->
 </div>
 @endsection

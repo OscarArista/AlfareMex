@@ -5,9 +5,11 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">{{ __('Login') }}</div>
-
+                <div class="card-header">{{ __('') }}</div>
+                <div class="card-header">{{ __('inicio') }}</div>
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
+                    //<form method="POST" action="{{ route('home') }}">
                         @csrf
 
                         <div class="form-group row">
@@ -49,7 +51,7 @@
                                 </div>
                             </div>
                         </div>
-
+<br><br>
                         <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
@@ -82,11 +84,11 @@
             <div class="contactos_info">
                 <div class="contact_information">
               <i class="fas fa-2x fa-user"></i>
-                    <p>alfaremex@gmail.com</p>
+                    <p>alfamexi007@gmail.com</p>
                 </div>
                 <div class="contact_information">
-                <h2>  <i class="fas fa-mobile-alt"></i></h2>
-                    <p>+52 77 13 38 11 33</p>
+                <h1>  <i class="fas fa-mobile-alt"></i></h1>
+                    <p>+52 77 13 38 19 78</p>
                 </div>
                 
             </div>
@@ -110,17 +112,32 @@
                             </span>
                         @enderror
                 </div>
-                <div class="input-container">
+               
+                 <div class="input-group">
                     <input id="password" type="password" class="form-control  @error('password') is-invalid @enderror" name="password" required  placeholder="CONTRASEÑA" autocomplete="current-password"
                     minlength="5" maxlength="40" pattern="[A-Za-z0-9]+">
-                </div>
+                    <div class="input-group-append">
+            <button id="show_password" class="btn btn-dark" type="button" onclick="mostrarPassword()"> <span class="fa fa-eye-slash icon"></span> </button>
+          </div>
+          </div>
+          <br>
+                
+                
+                
                 <input type="submit" value="Login" class="contact_btn">
-                @if (Route::has('register'))
-                    <a class="contact_btn" href="{{ route('register') }}">{{ __('Registrar') }}</a>
-                @endif
+               @if (Route::has('register'))
+             
+                  <a class="contact_btn" href={{ route('register') }}> {{ __('Register')}}</a>
+              
+              @endif
+              <a class="contact_btn" href="{{ url('/')}}">Inicio</a>
+                 <br><br>
+               
                     <div class="form-group row mb-0">
                                 @if (Route::has('password.request'))
-                                    <a class="btn text-light" href="{{ route('password.request') }}">
+                                
+                              
+                                <a class="text-dark" href="{{ route('password.request') }}">
                                         {{ __('¿Olvidaste tu contraseña?') }}
                                     </a>
                                 @endif
@@ -128,6 +145,64 @@
             </form>
         </div>
     </div>
+    <script type="text/javascript">
+function mostrarPassword(){
+		var cambio = document.getElementById("password");
+		if(cambio.type == "password"){
+			cambio.type = "text";
+			$('.icon').removeClass('fa fa-eye-slash').addClass('fa fa-eye');
+		}else{
+			cambio.type = "password";
+			$('.icon').removeClass('fa fa-eye').addClass('fa fa-eye-slash');
+		}
+	} 
+	
+	$(document).ready(function () {
+	//CheckBox mostrar contraseña
+	$('#ShowPassword').click(function () {
+		$('#Password').attr('type', $(this).is(':checked') ? 'text' : 'password');
+	});
+});
+</script>
 </div>
 @endsection 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

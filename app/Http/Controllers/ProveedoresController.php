@@ -21,6 +21,9 @@ class ProveedoresController extends Controller
             
         $proveedore->user_id = auth()->id();
         $proveedore->name = request('name');
+        $proveedore->descripcion = request('descripcion');
+        $proveedore->correo = request('correo');
+        
             if($request->hasFile('image')){
                 $file = $request->image;
                 $file->move(public_path(). '/img/proveedore', $file->getClientOriginalName());
@@ -40,6 +43,9 @@ class ProveedoresController extends Controller
     {
         $proveedore = Proveedores::findOrFail($id);
         $proveedore->name = request('name');
+        $proveedore->descripcion = request('descripcion');
+        $proveedore->correo = request('correo');
+        
         if($request->hasFile('image')){
             $file = $request->image;
             $file->move(public_path(). '/img/proveedore', $file->getClientOriginalName());

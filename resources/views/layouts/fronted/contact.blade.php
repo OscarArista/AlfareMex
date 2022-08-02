@@ -3,11 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" type="imagenes" href="{{asset('img/favicon.ico')}}">
+        <link rel="shortcut icon" type="imagenes" href="{{asset('img/ico.jpg')}}">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>AlfareMex |Contáctanos</title>
+        <title>AlfareMex | Contáctanos</title>
 
         <!-- Fonts--> 
         <link href="{{asset('css/style.css') }}" rel="stylesheet">
@@ -30,8 +30,8 @@
     <script src="{{asset('js/typed.js') }}"></script>
     <script>
 	var typed = new Typed('.type', {
-    strings: ['<span><i class="fas fa-mobile-alt"></i></span> +51 99999999', 
-                '<span><i class="fas fa-mail-bulk"></i></span> AlfareMex@gmail.com'],
+    strings: ['<span><i class="fas fa-mobile-alt"></i></span> +52 7713381978', 
+                '<span><i class="fas fa-mail-bulk"></i></span> alfamexi007@gmail.com'],
     typeSpeed:60,backSpeed:60,loop:true});
     </script>
     </body>

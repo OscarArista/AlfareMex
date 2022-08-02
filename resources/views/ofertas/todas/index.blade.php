@@ -50,14 +50,14 @@
         </div>
         <div class="alert alert-success" role="alert">
             <h4 class="alert-heading">Hola {{ Auth::user()->name }}</h4>
-            <p>Si vas a publicar una Imagen de oferta del dia porfavor sigue esta recomedación:<br>
+            <!-- p>Si vas a publicar una Imagen de oferta del dia porfavor sigue esta recomedación:<br>
                 1-Para que el usuario tenga una mayor satisfaccion al ver 
                 la imagen porfavor que sus dimensiones sean de <strong>"720 x 1280"</strong>.<br>
                 2-Que la imagen tenga un formato <strong>".jpg"</strong>.<br>
                 3-Respete los caracteres de los campos solicitados.
             </p>
             <hr>
-            <p class="mb-0">Que tengas un hermoso dia Atte: JLDIAZ</p>
+            <p class="mb-0">Que tengas un hermoso dia Atte: JLDIAZ</p-->
         </div>
 </div>
 @endsection

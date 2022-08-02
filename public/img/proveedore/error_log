@@ -1,0 +1,8 @@
+[27-Mar-2022 19:29:28 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home1/proye324/proyectoalfa.proyectostics.com/public/img/proveedore/Role.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/proye324/proyectoalfa.proyectostics.com/public/img/proveedore/Role.php on line 8
+[27-Mar-2022 19:29:42 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home1/proye324/proyectoalfa.proyectostics.com/public/img/proveedore/Role.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/proye324/proyectoalfa.proyectostics.com/public/img/proveedore/Role.php on line 8

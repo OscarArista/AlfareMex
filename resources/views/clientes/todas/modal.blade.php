@@ -23,7 +23,9 @@
                 </div>
                 <div class="form-group">
                     <label for="message-text" class="col-form-label">IMAGEN DEL CLIENTE:</label>
-                    {{Form::file('image',['required' => 'required' ])}}
+                    <input accept="image/png,image/jpeg" type="file" name="image" id="image" require>
+
+                  
                 </div>
                 </form>
             </div>

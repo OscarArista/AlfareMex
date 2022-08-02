@@ -6,10 +6,10 @@
         <link rel="shortcut icon" type="imagenes" href="{{asset('img/ico.jpg')}}">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        
+
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
 	    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
-        <title>AlfareMex |Detalle de Producto</title>
+        <title>AlfaMexi | Detalle de Producto</title>
 
         <!-- Fonts--> 
         <link href="{{asset('css/style.css') }}" rel="stylesheet">
@@ -32,5 +32,9 @@
     <script src="{{asset('js/responsive.js') }}"></script>
     <script src="{{asset('js/security.js') }}"></script>
     <script src="{{asset('js/product-detail.js') }}"></script>
+
+
+
+    
     </body>
 </html>

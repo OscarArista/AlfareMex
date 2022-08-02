@@ -43,6 +43,8 @@
     <tr>
       <th scope="col">Id</th>
       <th scope="col">Nombre</th>
+      <th scope="col">Apaterno</th>
+      <th scope="col">Amaterno</th>
       <th scope="col">Email</th>
       <th scope="col">Celular</th>
       <th scope="col">Rol</th>
@@ -56,6 +58,8 @@
     <tr>
       <th scope="row">{{$user->id}}</th>
       <td>{{$user->name}}</td>
+      <td>{{$user->apaterno}}</td>
+      <td>{{$user->amaterno}}</td>
       <td>{{$user->email}}</td>
       <td>{{$user->celular}}</td>
       <td>

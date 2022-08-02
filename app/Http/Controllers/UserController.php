@@ -37,7 +37,9 @@ class UserController extends Controller
     {
         $usuario = new User();
 
-        $usuario->name = request('name'); 
+        $usuario->name = request('name');
+        $usuario->apaterno = request('apaterno');
+        $usuario->amaterno = request('amaterno'); 
         $usuario->email = request('email');
         $usuario->celular = request('celular');
         $usuario->password = bcrypt(request('password'));
@@ -67,6 +69,8 @@ class UserController extends Controller
         $usuario = User::findOrFail($id);
 
         $usuario->name = $request->get('name');
+        $usuario->apaterno = $request->get('apaterno');
+        $usuario->amaterno = $request->get('amaterno');
         $usuario->email = $request->get('email'); 
         $usuario->celular = $request->get('celular');
 

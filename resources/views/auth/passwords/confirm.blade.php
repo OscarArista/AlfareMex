@@ -1,6 +1,37 @@
-@extends('layouts.app')
-
+@extends('layouts.init')
 @section('content')
+<div class="conatiner">
+    <div class="form">
+    <div class="contact-info">
+                <h3 class="contact_tittle">BIENVENID@</h3>
+                <p class="contact_text">
+                </p>
+
+            <div class="contactos_info">
+                <div class="contact_information">
+              <i class="fas fa-2x fa-user"></i>
+                    <p>alfaremex@gmail.com</p>
+                </div>
+                <div class="contact_information">
+                <h1>  <i class="fas fa-mobile-alt"></i></h1>
+                    <p>+52 77 13 38 11 33</p>
+                </div>
+                
+            </div>
+            <div class="social_media">
+                <p></p>
+                <div class="social-icons">
+                        <img src="{{asset('img/favicon_higienika_office_peru.png')}}" alt="">
+                        <p></p>
+                </div>
+            </div>
+        </div>
+        
+     <div class="contact-form">
+                <div class="card-body">
+
+
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -41,9 +72,19 @@
                             </div>
                         </div>
                     </form>
-                </div>
+               </div>
             </div>
         </div>
     </div>
 </div>
 @endsection
+
+
+
+
+
+
+
+
+
+

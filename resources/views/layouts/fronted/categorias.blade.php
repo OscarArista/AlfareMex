@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
 	    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
-        <title>AlfareMex |Productos</title>
+        <title>AlfareMex | Productos</title>
 
         <!-- Fonts--> 
         <link href="{{asset('css/style.css') }}" rel="stylesheet">
@@ -18,7 +18,7 @@
         <!-- Styles -->
     </head>
     <body>
-        
+        @yield('redes')
         <section id="headerSection_nosotros">
             @yield('navbar_top')
             @yield('navbar')
@@ -37,13 +37,13 @@
     <script src="{{asset('js/responsive.js') }}"></script>
     <script src="{{asset('js/security.js') }}"></script>
     <script src="{{asset('js/typed.js') }}"></script>
+    
     <script>
 	var typed = new Typed('.type', {
-        strings: ['<span><i class="fas fa-check"></i></span> Platos de Barro', 
-                '<span><i class="fas fa-check"></i></span> Tazas de Barro',
-                '<span><i class="fas fa-check"></i></span> Cazuelas'],
+        strings: ['<span><i class="fas fa-check"></i></span> PLATOS DE BARRO', 
+                '<span><i class="fas fa-check"></i></span> VAJILLAS DE BARRO',
+                '<span><i class="fas fa-check"></i></span> TAZAS DE BARRO'],
     typeSpeed:60,backSpeed:60,loop:true});
     </script>
-
     </body>
 </html>

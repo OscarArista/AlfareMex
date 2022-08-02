@@ -22,7 +22,10 @@
             <div class="card mb-3" style="max-width: 540px;">
                 <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src="{{asset('/img/clientes/'.$cliente->image)}}" alt="{{$cliente->image}}" class="card-img-top">
+                            <img src="{{asset('/img/clientes/'.$cliente->image)}}" 
+                            alt="{{$cliente->image}}" class="card-img-top" accept="image/">
+                           
+
                         </div>
                     <div class="col-md-8">
                         <div class="card-body">
@@ -48,13 +51,13 @@
         </div>
         <div class="alert alert-success" role="alert">
             <h4 class="alert-heading">Hola {{ Auth::user()->name }}</h4>
-            <p>Si vas a publicar una Imagen de un cliente porfavor sigue esta recomedación:<br>
+            <!-- p>Si vas a publicar una Imagen de un cliente porfavor sigue esta recomedación:<br>
                 1-Para que el usuario tenga una mayor satisfaccion al ver 
                 la imagen porfavor que sus dimensiones sean de <strong>"195 x 100"</strong>.<br>
                 2-Que la imagen tenga un formato <strong>".jpg"</strong>.<br>
                 3-Respete los caracteres de los campos solicitados.
             </p>
             <hr>
-            <p class="mb-0">Que tengas un hermoso día Atte: JLDIAZ</p>
+            
         </div>
 @endsection

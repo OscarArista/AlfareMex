@@ -21,11 +21,13 @@
 <div class="card text-center mx-auto" style="width: 400px;">
     <div class="card-header">
         <input type="text" name="name" class="form-control" required value="{{$proveedore->name}}">
+           <input type="text" name="descripcion" class="form-control" required value="{{$proveedore->descripcion}}">
+        <input type="email" name="correo" class="form-control" required value="{{$proveedore->correo}}">
     </div> 
     <div class="form-group cold-md-6"> 
         <label>Imagen</label>
         <br>
-            {{Form::file('image')}}
+        <input accept="image/png,image/jpeg" type="file" name="image" id="image" require>
             @if($proveedore->image != "")
             <img src="{{asset('/img/proveedore/'.$proveedore->image)}}" alt="{{$proveedore->name}}" height="300px" width="50px" class="card-img-top">
             @endif

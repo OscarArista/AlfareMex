@@ -2,7 +2,7 @@
 @section('content')
 <div class="container ">
     <h1>
-        Cursos<small>[Agregar Cursos]</small>
+        Productos<small>[Agregar Productos]</small>
     </h1>
 
 <div class="row text-center">
@@ -50,14 +50,11 @@
         </div>
         <div class="form-group">
             <label for="visible">Estatus:</label>
-            {!!
-                Form::checkbox('visible',null,array('class' => 'form-check-label'))    !!}
+            {!! Form::checkbox('visible',null,array('class' => 'form-check-label')) !!}
         </div>
-
-          <div class="form-group">
+        <div class="form-group">
             {!! Form::submit('Guardar', array('class' =>'btn btn-outline-primary')) !!}
-            <a href="{{ route('producto.index')}}" class="btn btn-outline-primary">ATRAS</a>
-            
+            <a href="{{ route('producto.index')}}" class="btn btn-outline-primary">ATRAS</a>            
         {!! Form::close()!!}   
         </div>
     </div>

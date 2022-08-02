@@ -1,0 +1,72 @@
+[27-Mar-2022 17:54:25 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php on line 8
+[27-Mar-2022 18:12:26 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php on line 8
+[27-Mar-2022 18:14:21 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php on line 8
+[27-Mar-2022 18:24:25 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php on line 8
+[27-Mar-2022 18:25:09 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php on line 8
+[27-Mar-2022 18:36:18 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php on line 8
+[27-Mar-2022 18:40:46 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php on line 8
+[27-Mar-2022 18:41:24 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php on line 8
+[27-Mar-2022 18:46:53 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php on line 8
+[27-Mar-2022 18:47:27 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php on line 8
+[27-Mar-2022 18:47:47 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php on line 8
+[27-Mar-2022 18:51:06 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php on line 8
+[27-Mar-2022 19:03:42 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php on line 8
+[27-Mar-2022 19:05:23 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php on line 8
+[27-Mar-2022 19:09:50 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php on line 8
+[27-Mar-2022 20:48:18 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php on line 8
+[27-Mar-2022 20:48:19 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php on line 8
+[27-Mar-2022 21:11:21 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/proye324/proyectoalfa.proyectostics.com/public/img/clientes/Role.php on line 8

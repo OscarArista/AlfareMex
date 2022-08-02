@@ -10,7 +10,7 @@
                 <ol class="breadcrumb float-sm-right">
                     <li class="breadcrumb-item"><a href="#">Usuarios</a></li>
                     <li class="breadcrumb-item"><a href="#">Index</a></li>
-                    <li class="breadcrumb-item active">Carnet Digital</li>
+                    <li class="breadcrumb-item active">Digital</li>
                 </ol>
             </div><!-- /.col -->
         </div><!-- /.row -->
@@ -26,7 +26,8 @@
                 <div class="col-md-6">
                 <div class="card-body">
                     <h2 class="display-6">{{$user->name}}</h2>
-                    <p class="lead">Email: {{$user->email}}</p>
+                    <p class="lead">Apaterno: {{$user->apaterno}}</p>
+                    <p class="lead">Amaterno: {{$user->amaterno}}</p>
                     <p class="lead">celular: {{$user->celular}}</p>
                     <p class="lead">Ingreso: {{$user->created_at}}</p>
                     <p class="lead">Actualización: {{$user->updated_at}}</p>

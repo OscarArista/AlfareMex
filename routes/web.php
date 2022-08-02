@@ -2,8 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
-
-use App\Http\Controllers\SearchController;
+use App\Models\User;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,12 +14,15 @@ use App\Http\Controllers\SearchController;
 |
 */
 /*NAVBAR*/
+
+
 Route::get('/', 'PublicofertController@ofertas');
 
 
 Route::get('/contact', function () {
     return view('contact');
 });
+
 Route::post('myurl', [SearchController::class, 'show']);
 
 Route::get('/productos', 'StoreController@index');
@@ -49,6 +51,15 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 /* GESTION*/
 Route::resource('usuarios','UserController')->middleware('auth')->middleware('auth');
+Route::resource('clientts','ClienttController')->middleware('auth')->middleware('auth');
+
+//Route::resource('register','RegisterController')->middleware('auth')->middleware('auth');
+
+
+//REGISTRAR 
+Route::get('register', 'Auth\RegisterController@getRegister')->name('register');
+Route::post('register', 'Auth\RegisterController@postregister')->name('register');
+
 Route::resource('roles','RoleController')->middleware('auth')->middleware('auth');
 Route::resource('/clientes/todas', 'ClientesController')->middleware('auth');
 Route::resource('/proveedores', 'ProveedoresController')->middleware('auth');

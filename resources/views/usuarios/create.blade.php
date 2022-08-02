@@ -40,6 +40,14 @@
                         <input type="text" name="name" class="form-control" placeholder="Ingrese su Nombre">
                     </div>
                     <div class="form-group col-md-6">
+                        <label for="apaterno">APELLIDO PATERNO</label>
+                        <input type="text" name="apaterno" class="form-control" placeholder="Ingrese su apellido">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="amaterno">APELLIDO MATERNO</label>
+                        <input type="text" name="amaterno" class="form-control" placeholder="Ingrese su apellido">
+                    </div>
+                    <div class="form-group col-md-6">
                         <label for="email">E-MAIL</label>
                         <input type="email" name="email" class="form-control"  placeholder="Ingrese su E-mail">
                     </div>
@@ -56,7 +64,18 @@
                 </div>  
                 <div class="form-group col-md-6">
                     <label for="celular">CELULAR</label>
-                    <input type="number" class="form-control" name="celular" required autocomplete="off" placeholder="Ingrese su celular">
+                    <input type="text" class="form-control" name="celular" pattern="[0-9]+" maxlength="10" minlength="10" required autocomplete="off" placeholder="Ingrese su celular">
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
                 </div>    
             </div> 
             <div class="row">

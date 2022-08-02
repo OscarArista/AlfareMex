@@ -1,6 +1,6 @@
 <div class="container">
     <button type="button" class="btn btn-outline-info btn-lg btn-block" data-toggle="modal" data-target="#exampleModal">
-        <i class="fa fa-plus-circle"></i> Oferta
+        <i class="fa fa-plus-circle"></i> NUEVO PROVEEDOR
     </button>
     </div>
     
@@ -21,9 +21,18 @@
                     <label for="recipient-name" class="col-form-label">NOMBRE DEL PROVEEDOR:</label>
                     <input type="text" name="name" class="form-control" id="recipient-name"  required>
                 </div>
+                
+                <div class="form-group">
+                    <label for="recipient-name" class="col-form-label">Descripcion:</label>
+                    <input type="text" name="descripcion" class="form-control" id="recipient-descripcion"  required>
+                </div>
+                <div class="form-group">
+                    <label for="recipient-name" class="col-form-label">Correo:</label>
+                    <input type="email" name="correo" class="form-control" id="recipient-correo"  required>
+                </div>
                 <div class="form-group">
                     <label for="message-text" class="col-form-label">IMAGEN DEL PROVEEDOR:</label>
-                    {{Form::file('image',['required' => 'required' ])}}
+                    <input accept="image/png,image/jpeg" type="file" name="image" id="image" require>
                 </div>
                 </form>
             </div>

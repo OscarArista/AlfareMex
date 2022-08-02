@@ -27,7 +27,10 @@
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h1 class="card-title">{{$proveedore->name}}</h1><br><hr>
+                        <h1 class="card-title">{{$proveedore->name}}</h1>
+                        <h1 class="card-title">{{$proveedore->descripcion}}</h1>
+                        <h1 class="card-title">{{$proveedore->correo}}</h1>
+                        <br><hr>
                         <p class="card-text"><small class="text-muted">Fecha Ingreso:{{ $proveedore->created_at}}</small></p>
                         <p class="card-text"><small class="text-muted">Fecha Actualizado:{{ $proveedore->updated_at}}</small></p>
                     </div>
@@ -48,14 +51,14 @@
         </div>
         <div class="alert alert-success" role="alert">
             <h4 class="alert-heading">Hola {{ Auth::user()->name }}</h4>
-            <p>Si vas a publicar una Imagen de Proveedores porfavor sigue esta recomedación:<br>
+            <!-- p>Si vas a publicar una Imagen de Proveedores porfavor sigue esta recomedación:<br>
                 1-Para que el usuario tenga una mayor satisfaccion al ver 
                 la imagen porfavor que sus dimensiones sean de <strong>"720 x 1280"</strong>.<br>
                 2-Que la imagen tenga un formato <strong>".jpg"</strong>.<br>
                 3-Respete los caracteres de los campos solicitados.
-            </p>
+            </p  -->
             <hr>
-            <p class="mb-0">Que tengas un hermoso día Atte: JLDIAZ</p>
+            <!-- p class="mb-0">Que tengas un hermoso día Atte: JLDIAZ</p -->
         </div>
 </div>
 @endsection
